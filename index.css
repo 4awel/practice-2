@@ -247,7 +247,12 @@ body {
     }
     
     .links-menu {
-        justify-content: center;
+        justify-content: start;
+        
+    }
+
+    .link-item {
+        width: 100%;
     }
     
     .products-table {

@@ -1,0 +1,72 @@
+cat > .gitignore << 'EOF'
+# System files
+.DS_Store
+desktop.ini
+.Trash/
+
+# Node.js
+node_modules/
+dist/
+build/
+*.log
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# User files and other projects
+.CFUserTextEncoding
+.IdentityService/
+.bytertc/
+.config/
+.docker/
+.dotnet/
+.lanternsecrets/
+.local/
+.mongodb/
+.mono/
+.npm/
+.nuget/
+.nvm/
+.ssh/
+.templateengine/
+.yandex/
+.zcompdump
+.zprofile
+.zsh_history
+.zsh_sessions/
+.zshrc
+.zshrc.save
+
+# User directories
+Applications/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Parallels/
+Pictures/
+Projects/
+Public/
+
+# Other projects
+Release-web-cinema/
+Shelushenko-App-dev/
+Sushidao-web/
+appaplication/
+appliacationjava/
+integral/
+new-project/
+refs/
+web-cinema/
+pract1/
+spotify-redisign-project/
+*.docx
+*.png
+*.zip
+EOF
