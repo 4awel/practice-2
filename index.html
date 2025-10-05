@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТехноМир - Главная</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header id="site-header">
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="assets/image.png" alt="Логотип ТехноМир" class="logo">
+                <h1 class="site-title">ТехноМир</h1>
+            </div>
+            <nav class="main-nav">
+                <a href="#home" class="nav-link">Главная</a>
+                <a href="#products" class="nav-link">Товары</a>
+                <a href="#about" class="nav-link">О нас</a>
+                <a href="#contact" class="nav-link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Основное содержимое -->
+    <main class="main-content">
+        <!-- Блок с меню ссылок -->
+        <section class="links-section">
+            <h2>Полезные ссылки</h2>
+            <nav class="links-menu">
+                <a href="#new" class="link-item">Новинки</a>
+                <a href="#sale" class="link-item">Распродажа</a>
+                <a href="#blog" class="link-item">Блог</a>
+                <a href="#support" class="link-item">Поддержка</a>
+            </nav>
+        </section>
+
+        <!-- Таблица -->
+        <section class="table-section">
+            <h2>Каталог товаров</h2>
+            <table class="products-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Наименование</th>
+                        <th>Категория</th>
+                        <th>Цена</th>
+                        <th>Наличие</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="odd">
+                        <td>001</td>
+                        <td>Смартфон XYZ</td>
+                        <td>Смартфоны</td>
+                        <td>25 999 ₽</td>
+                        <td rowspan="2">В наличии</td>
+                    </tr>
+                    <tr class="even">
+                        <td>002</td>
+                        <td>Ноутбук Pro</td>
+                        <td>Ноутбуки</td>
+                        <td>67 490 ₽</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>003</td>
+                        <td>Планшет Mini</td>
+                        <td>Планшеты</td>
+                        <td>18 750 ₽</td>
+                        <td>Под заказ</td>
+                    </tr>
+                    <tr class="even">
+                        <td>004</td>
+                        <td>Умные часы</td>
+                        <td>Гаджеты</td>
+                        <td>8 999 ₽</td>
+                        <td>В наличии</td>
+                    </tr>
+                    <tr class="odd">
+                        <td>005</td>
+                        <td>Игровая консоль</td>
+                        <td>Игровые системы</td>
+                        <td>45 000 ₽</td>
+                        <td>Нет в наличии</td>
+                    </tr>
+                    <tr class="even">
+                        <td colspan="3">Итого товаров:</td>
+                        <td>166 238 ₽</td>
+                        <td>5 позиций</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Форма -->
+        <section class="form-section">
+            <h2>Обратная связь</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer id="site-footer">
+        <div class="footer-container">
+            <p>&copy; 2025 ТехноМир.</p>
+            <p class="author">Шадрин Денис</p>
+        </div>
+    </footer>
+</body>
+</html>
